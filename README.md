@@ -4,7 +4,7 @@
 
 ## Características
 
-- **Traducción rápida:** Procesa imágenes en japones y extrae/traduce el contenido directamente desde la consola.
+- **Traducción rápida:** Procesa imágenes en japones y extrae/traduce el contenido directamente desde la consola utilizando **Google Translate**.
 - **Desarrollado en C# (.NET):** Ligero, eficiente y fácil de ejecutar.
 
 ---
