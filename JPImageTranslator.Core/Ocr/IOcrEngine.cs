@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ScreenTranslator.Core.Ocr
+namespace JPImageTranslator.Core.Ocr
 {
     public interface IOcrEngine
     {
-        string Read(string imagePath);
+        Task<string> Read(string imagePath);
     }
 }

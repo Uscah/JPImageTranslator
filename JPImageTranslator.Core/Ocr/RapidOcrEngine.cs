@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using RapidOcrNet;
 
-namespace ScreenTranslator.Core.Ocr
+namespace JPImageTranslator.Core.Ocr
 {
     public class RapidOcrEngine : IOcrEngine, IDisposable
     {
@@ -13,7 +13,11 @@ namespace ScreenTranslator.Core.Ocr
         {
             _ocr.InitModels(detPath: det, clsPath: cls, recPath: rec, keysPath: keys);
         }
-        public string Read(string imagePath) => _ocr.Detect(imagePath, RapidOcrOptions.Default).StrRes;
+        public async Task<string> Read(string imagePath)
+        {
+            var result = await _ocr.DetectAsync(imagePath, RapidOcrOptions.Default);
+            return result.StrRes;
+        } 
         public void Dispose() => _ocr.Dispose();
         
     }

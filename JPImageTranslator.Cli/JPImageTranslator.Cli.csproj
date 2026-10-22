@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\ScreenTranslator.Core\ScreenTranslator.Core.csproj" />
+    <ProjectReference Include="..\JPImageTranslator.Core\JPImageTranslator.Core.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

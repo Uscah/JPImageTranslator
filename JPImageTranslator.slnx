@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="JPImageTranslator.Cli/JPImageTranslator.Cli.csproj" />
+  <Project Path="JPImageTranslator.Core/JPImageTranslator.Core.csproj" />
+</Solution>

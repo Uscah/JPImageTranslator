@@ -1,1 +1,1 @@
-# ScreenTranslator
+# JPImageTranslator

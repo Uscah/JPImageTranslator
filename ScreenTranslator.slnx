@@ -1,4 +1,0 @@
-<Solution>
-  <Project Path="ScreenTranslator.Cli/ScreenTranslator.Cli.csproj" />
-  <Project Path="ScreenTranslator.Core/ScreenTranslator.Core.csproj" />
-</Solution>
