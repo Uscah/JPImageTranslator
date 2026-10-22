@@ -9,6 +9,12 @@
 
 ---
 
+## Tecnologias utilizadas:
+
+- C# .NET 10
+- RapidOcrNet
+- Google Translate API
+
 ## Requisitos
 
 - [.NET SDK](https://dotnet.microsoft.com/download) (versión 10.x).
