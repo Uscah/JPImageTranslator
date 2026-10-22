@@ -9,11 +9,13 @@
 
 ---
 
-## Tecnologias utilizadas:
+## Tecnologias utilizadas
 
 - C# .NET 10
 - RapidOcrNet
 - Google Translate API
+
+---
 
 ## Requisitos
 
@@ -21,7 +23,7 @@
 
 ---
 
-## ⚙️ Instalación y Configuración
+## Instalación y Configuración
 
 1. **Clonar el repositorio:**
    ```bash
